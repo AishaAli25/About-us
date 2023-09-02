@@ -12,7 +12,11 @@ struct ContentView: View {
         TabView {
             AishaView()
                 .tabItem {
-                    Label("Aisha Ali ", systemImage: "person.circle.fill")
+                    Label("Me!", systemImage: "person.circle.fill")
+                }
+            HambaView()
+                .tabItem {
+                    Label("Hamba", systemImage: "pawprint.circle.fill")
                 }
         }
     }
